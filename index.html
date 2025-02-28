@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticketing Center</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body class="bg-info">
+
+    <div class="container">
+        <div class="header fw-bold">Ticketing Center</div>
+
+        <button class="accordion">Personal Information</button>
+        <div class="panel text-center p-2">
+            <h3>Fill out the form below</h3>
+            <form>
+                <label class="fw-bold">Complete Name:</label>
+                <br>
+                <input type="text" placeholder="Enter your name" class="fw-bold form-control"><br><br>
+                <label class="fw-bold">Email:</label>
+                <br>
+                <input type="email" placeholder="Enter your email" class="fw-bold form-control"><br><br>
+            </form>
+            <button class="blue-btn">SUBMIT INFO</button>
+        </div>
+
+        <button class="accordion">Ticket Price</button>
+        <div class="panel">
+            <h3>Check your ticket price</h3>
+            <label>Choose your seat:</label>
+            <select>
+                <option value="vip">VIP</option>
+                <option value="patron">Patron</option>
+                <option value="regular">Regular</option>
+            </select><br><br>
+            <label>Choose an option:</label>
+            <select>
+                <option value="discounted">Discounted</option>
+                <option value="regular">Regular</option>
+            </select><br><br>
+            <button class="blue-btn">TICKET PRICE</button>
+        </div>
+
+        <button class="accordion">Print Ticket</button>
+        <div class="panel">
+            <h3>Select your ticket</h3>
+            <img src="https://clipart-library.com/images_k/movie-ticket-transparent/movie-ticket-transparent-19.png" alt="Cinema Ticket" class="ticket-img" height="100" width="250"><br><br>
+            <button class="blue-btn">PRINT TICKET</button>
+            <button class="blue-btn">BUY MORE TICKETS</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
